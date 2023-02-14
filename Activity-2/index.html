@@ -10,8 +10,12 @@
     <nav>
       <a href="mailto: clarkl22@gmatc.matc.edu">My email</a>
     </nav>
-    <img src="images/DALL·E 2022-11-19 17.50.50 - moody, rainy Tokyo city, a shadowy figure smoking a cigarette, realistic.png" alt="guy-in-Tokyo" />
-    <table>
+    <img
+      src="images/DALL·E 2022-11-19 17.50.50 - moody, rainy Tokyo city, a shadowy figure smoking a cigarette, realistic.png"
+      alt="guy-in-Tokyo"
+      style="width: 20%"
+    />
+    <table id="simple-table">
       <tr>
         <th>Student 1</th>
         <th>Student 2</th>
@@ -28,31 +32,26 @@
         <td>23</td>
       </tr>
     </table>
+    <table id="complex-table" border="1" cellspacing="0">
+      <thead>
+        <tr>
+          <th>Features</th>
+          <th scope="col">Plays Sound</th>
+          <th scope="col">Open Back</th>
+          <th scope="col">Insanely expensive</th>
+          <th scope="col">I own</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td scope="row">Focal Utopia</td>
+          <td colspan="3">Yes</td>
+          <td>No</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <td colspan="5">&copy; Lucas Oceanwalker 2020</td>
+      </tfoot>
+    </table>
   </body>
 </html>
-
-<!-- *Use VSCode to create all files and folders.
-Create a subfolder in your local project named activity-2. 
-In the activity-2 folder, create a new file named index.html.
-The page should utilize the following tags:
-html, head, title, body
-
-Create a folder named images, then add an image to the folder
-Add the image to the page
-
-Add an email link using your email address
-
-Create a simple table
-Use tags: table, th, tr, td
-Give the table an id: <table id=”simple-table”>...
-  
-Create a complex table, utilizing the following tags:
-Use tags: table, th, tr, td, thead, tbody, tfoot
-Use attributes: scope, colspan, rowspan
-Give the table an id: <table id=”complex-table”>...
-  
-In the root folder of your project (i.e., your repo folder, e.g., mike-hunsicker), create a new file named index.html. This will be your activity homepage with links to your activities.
-The page should utilize the following tags:
-html, head, title, body, h1, ul, li, a
-Use the a, ul and li tags to create links to your activities, e.g., activity-1/index.html and activity-2/index.html.
- -->
