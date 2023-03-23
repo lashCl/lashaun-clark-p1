@@ -1,20 +1,20 @@
 :root {
-  --pink: #ffacac;
-  --pale-pink: #ffbfa9;
-  --pale-orange: #ffebb4;
-  --yellow: #fbffb1;
+  --primary-color: #4d4d4d;
+  --secondary-color: #ffbf9b;
+  --terniary-color: #b46060;
+  --color-four: #fff4e0;
 }
 
 body {
-  background-color: var(--yellow);
-  color: var(--pink);
+  background-color: var(--color-four);
+  color: var(--primary-color);
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
 }
 
 header {
-  background-color: var(--pink);
+  background-color: var(--primary-color);
   color: white;
   padding: 20px;
 }
@@ -27,7 +27,7 @@ h1 {
 }
 
 nav {
-  background-color: var(--pink);
+  background-color: var(--primary-color);
   color: white;
   padding: 20px;
   font-size: 25px;
@@ -50,14 +50,14 @@ nav ul li a {
   padding: 10px;
   font-weight: bold;
   color: white;
-  border-color: var(--yellow);
+  border-color: var(--terniary-color);
   border-radius: 20%;
   border-style: solid;
 }
 
 nav ul li a:hover {
   background-color: white;
-  color: var(--pink);
+  color: var(--primary-color);
 }
 
 nav button {
@@ -70,7 +70,7 @@ nav button {
 }
 
 nav button:hover {
-  color: var(--pale-pink);
+  color: var(--secondary-color);
 }
 
 section {
@@ -88,7 +88,7 @@ h4,
 h5,
 h6 {
   font-weight: bold;
-  color: var(--pink);
+  color: var(--terniary-color);
 }
 
 table {
@@ -98,11 +98,11 @@ table {
 th,
 td {
   padding: 10px;
-  border: 1px solid var(--pale-pink);
+  border: 1px solid var(--terniary-color);
 }
 
 th {
-  background-color: var(--pink);
+  background-color: var(--primary-color);
   color: white;
 }
 
@@ -113,16 +113,16 @@ ol {
 }
 
 a {
-  color: var(--pink);
+  color: var(--primary-color);
   text-decoration: none;
 }
 
 a:hover {
-  color: var(--pale-pink);
+  color: var(--secondary-color);
 }
 
 footer {
-  background-color: var(--pink);
+  background-color: var(--primary-color);
   color: white;
   text-align: center;
   padding: 10px;

@@ -1,8 +1,8 @@
 :root {
-  --pink: #ffacac;
-  --pale-pink: #ffbfa9;
-  --pale-orange: #ffebb4;
-  --yellow: #fbffb1;
+  --primary-color: #4d4d4d;
+  --secondary-color: #ffbf9b;
+  --terniary-color: #b46060;
+  --color-four: #fff4e0;
 }
 
 .player-image {
@@ -29,6 +29,7 @@
 .social-links {
   list-style: none;
   margin: 0;
+  margin-top: 20px;
   padding: 0;
 }
 
@@ -58,4 +59,17 @@
 
 .social-links a:hover {
   width: 40px;
+}
+
+p {
+  font-size: 17px;
+  line-height: 1.75;
+  margin-top: 20px;
+  margin-bottom: 0;
+  padding: 0% 10%;
+}
+
+span {
+  font-weight: 100;
+  color: var(--primary-color);
 }
