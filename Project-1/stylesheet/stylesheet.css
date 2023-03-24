@@ -144,6 +144,33 @@ img {
   max-height: 500px;
 }
 
+ol span {
+  font-weight: bold;
+  color: var(--terniary-color);
+}
+
+ol p {
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+ol li li {
+  font-weight: normal;
+  color: var(--primary-color);
+}
+
+#more-info {
+  margin-top: 50px;
+}
+
+#tips a {
+  color: #b46060;
+}
+
+#tips a:hover {
+  font-size: large;
+}
+
 footer {
   background-color: var(--primary-color);
   color: white;
