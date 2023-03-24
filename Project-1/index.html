@@ -12,7 +12,7 @@
       <h1>Chess Website</h1>
       <nav>
         <ul>
-          <li><a href="#players">Highest Rated Players</a></li>
+          <li><a href="#players">Best Players</a></li>
           <li><a href="#openings">Popular Openings</a></li>
           <li><a href="#tips">Beginner Tips</a></li>
         </ul>
@@ -22,6 +22,7 @@
       <section id="players">
         <div class="highest-rating">
           <h2>Highest Rated Players</h2>
+          <p><i>*click a name to see more</i></p>
           <table>
             <thead>
               <tr>
@@ -29,26 +30,26 @@
                 <th>Name</th>
                 <th>Country</th>
                 <th>Overview</th>
-                <th>ELO Rating</th>
+                <th>FIDE Rating</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>1</td>
+                <td>#1</td>
                 <td><a href="player.html#firstHighest">Magnus Carlsen</a></td>
                 <td>Norway</td>
                 <td>Five-time World Chess Champion.</td>
                 <td>2852</td>
               </tr>
               <tr>
-                <td>2</td>
+                <td>#2</td>
                 <td><a href="player.html#secondHighest">Ian Nepomniachtchi</a></td>
                 <td>Russia</td>
                 <td>Won the 2020 Russian Superfinal.</td>
                 <td>2795</td>
               </tr>
               <tr>
-                <td>3</td>
+                <td>#3</td>
                 <td><a href="player.html#thirdHighest">Ding Liren</a></td>
                 <td>China</td>
                 <td>Highest rated Chinese chess player in history and is also a three-time Chinese Chess Champion.</td>
@@ -66,26 +67,26 @@
                 <th>Name</th>
                 <th>Country</th>
                 <th>Overview</th>
-                <th>ELO Rating</th>
+                <th>FIDE Rating</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>1</td>
+                <td>#1</td>
                 <td><a href="player.html#firstPopular">Levy Rozman</a></td>
                 <td>USA</td>
                 <td>Has the most-subscribed chess channel on YouTube, with over 3 million subscribers.</td>
                 <td>2322</td>
               </tr>
               <tr>
-                <td>2</td>
+                <td>#2</td>
                 <td><a href="player.html#secondPopular">Hikaru Nakamura</a></td>
                 <td>USA</td>
                 <td>Chess grandmaster, Twitch streamer, and five-time U.S. Chess Champion.</td>
                 <td>2768</td>
               </tr>
               <tr>
-                <td>3</td>
+                <td>#3</td>
                 <td><a href="player.html#thirdPopular">Antonio Radić</a></td>
                 <td>Yugoslavia</td>
                 <td>Previously had the most subscribers of any YouTube chess channel from 2018 until late 2021.</td>
@@ -95,17 +96,17 @@
           </table>
         </div>
       </section>
-
       <section id="openings">
         <h2>Popular Openings</h2>
-        <ul>
-          <li>Ruy Lopez</li>
-          <li>Sicilian Defense</li>
-          <li>French Defense</li>
-          <li>Caro-Kann Defense</li>
-          <li>Queen's Gambit Declined</li>
+        <ul id="opening-list">
+          <li class="opening-title">Ruy Lopez</li>
+          <li class="opening-title">Sicilian Defense</li>
+          <li class="opening-title">French Defense</li>
+          <li class="opening-title">Caro-Kann Defense</li>
+          <li class="opening-title">Queen's Gambit</li>
         </ul>
-        <img src="chessboard.jpg" alt="chess board" />
+        <div id="opening-details"></div>
+        <img src="images/chessboard.avif" alt="chess board" />
       </section>
 
       <section id="tips">

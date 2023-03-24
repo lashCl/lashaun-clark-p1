@@ -121,6 +121,29 @@ a:hover {
   color: var(--secondary-color);
 }
 
+#openings li {
+  list-style: none;
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+  color: var(--color-four);
+  background-color: var(--terniary-color);
+  cursor: pointer;
+}
+
+#openings p {
+  line-height: 1.5;
+  padding: 0px 10%;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  height: auto;
+  max-height: 500px;
+}
+
 footer {
   background-color: var(--primary-color);
   color: white;

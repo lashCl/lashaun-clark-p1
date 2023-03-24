@@ -4,12 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PLayers</title>
+    <title>Players</title>
     <link rel="stylesheet" href="stylesheet/stylesheet.css" />
+    <link rel="stylesheet" href="stylesheet/playerstyle.css" />
   </head>
   <body>
     <header>
-      <h1>My Chess Website</h1>
+      <h1>Chess Website</h1>
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -19,35 +20,223 @@
       </nav>
     </header>
     <main>
-      <section id="firstHighest">
-        <h2>Magnus Carlsen</h2>
-        <img src="magnus-carlsen.jpg" alt="Magnus Carlsen" />
-        <p></p>
+      <section id="firstHighest" class="player-container">
+        <h2>Magnus Carlsen <span>- World Chess Champion</span></h2>
+        <div class="player-info">
+          <img src="images/Magnus-Carlsen.webp" alt="Magnus-Carlsen" class="player-image" />
+          <div class="player-details">
+            <h3>Rank: <span>#1</span></h3>
+            <h3>FIDE Rating: <span>2852</span></h3>
+            <h3>Country: <span>USA</span></h3>
+            <ul class="social-links">
+              <li>
+                <a href="https://www.facebook.com/magnuschess/" target="_blank"><img src="images/facebook-icon.png" alt="Facebook" /></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/MagnusCarlsen" target="_blank"><img src="images/twitter-icon.png" alt="Twitter" /></a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/magnus_carlsen/?hl=en" target="_blank"><img src="images/instagram-icon.png" alt="Instagram" /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p>Magnus Carlsen, the Norwegian chess prodigy, is widely considered as one of the greatest chess players to ever grace the board.</p>
+        <p>
+          With a series of championship titles to his name, including the prestigious World Chess Championship, World Rapid Chess Championship, and World Blitz
+          Chess Championship, Carlsen has cemented his position as a true icon in the world of chess. Since July 2011, he has been unbeatable, holding the No. 1
+          spot in the FIDE world chess rankings.
+        </p>
+        <p>
+          Carlsen's records speak volumes about his greatness, as he holds the records for the highest peak rating and longest unbeaten streak at the elite
+          level in classical chess. His unpredictable and universal playing style, coupled with his ability to leverage a variety of openings, keeps his
+          opponents on their toes, making him a formidable force on the board.
+        </p>
       </section>
-      <section id="secondHighest">
-        <h2>Ian Nepomniachtchi</h2>
-        <img src="magnus-carlsen.jpg" alt="Ian Nepomniachtchi" />
-        <p></p>
+      <section id="secondHighest" class="player-container">
+        <h2>Ian Nepomniachtchi <span> -2023 World Champion Candidate</span></h2>
+        <div class="player-info">
+          <img src="images/Ian-Nepomniachtchi.jpg" alt="" class="player-image" />
+          <div class="player-details">
+            <h3>Rank: <span>#2</span></h3>
+            <h3>FIDE Rating: <span>2795</span></h3>
+            <h3>Country: <span>Russia</span></h3>
+            <ul class="social-links">
+              <li>
+                <a href="https://www.facebook.com/lachesisq/" target="_blank"><img src="images/facebook-icon.png" alt="Facebook" /></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/lachesisq" target="_blank"><img src="images/twitter-icon.png" alt="Twitter" /></a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/ian.nepomniachtchi/?hl=en" target="_blank"><img src="images/instagram-icon.png" alt="Instagram" /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p>
+          As a Russian chess grandmaster, Ian Nepomniachtchi has dominated the chess world, earning himself several titles and championships, including the
+          Russian Superfinal and European Individual titles.
+        </p>
+        <p>
+          His impressive performance has earned him the right to challenge for the World Chess Championship title not once, but twice, after qualifying and
+          winning two Candidates tournaments in a row. Although he ultimately lost his challenge to the defending champion Magnus Carlsen in 2021,
+          Nepomniachtchi's legacy remains unparalleled as he continues to hold the No. 2 spot in classical chess.
+        </p>
       </section>
-      <section id="thirdHighest">
-        <h2>Ding Liren</h2>
-        <img src="magnus-carlsen.jpg" alt="Ding Liren" />
-        <p></p>
+      <section id="thirdHighest" class="player-container">
+        <h2>Ding Liren <span>- 2023 World Champion Candidate</span></h2>
+        <div class="player-info">
+          <img src="images/Ding-Liren.jpeg" alt="" class="player-image" />
+          <div class="player-details">
+            <h3>Rank: <span>#3</span></h3>
+            <h3>FIDE Rating: <span>2788</span></h3>
+            <h3>Country: <span>China</span></h3>
+            <ul class="social-links">
+              <li>
+                <a href="https://www.facebook.com/ding.liren/" target="_blank"><img src="images/facebook-icon.png" alt="Facebook" /></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/dingliren?lang=en" target="_blank"><img src="images/twitter-icon.png" alt="Twitter" /></a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/dingliren_chess/?hl=en" target="_blank"><img src="images/instagram-icon.png" alt="Instagram" /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p>
+          Ding Liren, a Chinese chess grandmaster and three-time Chinese Chess Champion, has achieved the highest rating ever held by a Chinese player. He won
+          both the 2019 Grand Chess Tour and the 2019 Sinquefield Cup, where he beat Magnus Carlsen in a playoff, a feat not accomplished since 2007. Ding has
+          made history as the first Chinese player to surpass the 2800 Elo mark on the FIDE world rankings and to play in a Candidates Tournament.
+        </p>
+        <p>
+          He had also previously set a new record for the longest unbeaten streak in top-level chess history, going 100 games undefeated from August 2017 to
+          November 2018 before Magnus Carlsen beat the streak in 2019. Currently, he ranks No. 3 in classical chess and is set to challenge in the upcoming
+          World Chess Championship 2023.
+        </p>
       </section>
-      <section id="firstPopular">
-        <h2>Levy Rozman</h2>
-        <img src="magnus-carlsen.jpg" alt="Levy Rozman" />
-        <p></p>
+      <section id="firstPopular" class="player-container">
+        <h2>Levy Rozman <span>- Most Followed Chess Player</span></h2>
+        <div class="player-info">
+          <img src="images/Levy-Rozman.jpg" alt="" class="player-image" />
+          <div class="player-details">
+            <h3>Rank: <span>#6,775</span></h3>
+            <h3>FIDE Rating: <span>2322</span></h3>
+            <h3>Country: <span>USA</span></h3>
+            <ul class="social-links">
+              <li>
+                <a href="https://www.youtube.com/channel/UCQHX6ViZmPsWiYSFAyS0a3Q" target="_blank"><img src="images/youtube-icon.png" alt="Youtube" /></a>
+              </li>
+              <li>
+                <a href="https://www.twitch.tv/gothamchess" target="_blank"><img src="images/twitch-icon.webp" alt="Twitch" /></a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/levy.rozman/" target="_blank"><img src="images/facebook-icon.png" alt="Facebook" /></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/GothamChess?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"
+                  ><img src="images/twitter-icon.png" alt="Twitter"
+                /></a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/gothamchess/?hl=en" target="_blank"><img src="images/instagram-icon.png" alt="Instagram" /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p>
+          Rozman, a prominent Twitch streamer and YouTuber, boasts over 3 million subscribers and has achieved over a billion views, making him the first-ever
+          chess channel to do so.
+        </p>
+        <p>
+          He has a close working relationship with Chess.com and is a frequent commentator for the platform. During the COVID-19 pandemic, Rozman witnessed a
+          massive surge in viewership. Moreover, in December 2022, he experienced another surge, surpassing a billion views. Rozman's video content varies in
+          complexity and includes instructional opening overviews, high-level games analysis, and chess engines. In July 2022, Rozman retired from "competitive
+          chess events" due to physical and mental stress, marking a significant milestone in his career.
+        </p>
       </section>
-      <section id="secondPopular">
-        <h2>Hikaru Nakamura</h2>
-        <img src="magnus-carlsen.jpg" alt="Hikaru Nakamura" />
-        <p></p>
+      <section id="secondPopular" class="player-container">
+        <h2>Hikaru Nakamura <span>- Most Followed Chess GrandMasterr</span></h2>
+        <div class="player-info">
+          <img src="images/Hikaru-Nakamura.webp" alt="" class="player-image" />
+          <div class="player-details">
+            <h3>Rank: <span>#6</span></h3>
+            <h3>FIDE Rating: <span>2768</span></h3>
+            <h3>Country: <span>USA</span></h3>
+            <ul class="social-links">
+              <li>
+                <a href="https://www.youtube.com/channel/UCweCc7bSMX5J4jEH7HFImng" target="_blank"><img src="images/youtube-icon.png" alt="Youtube" /></a>
+              </li>
+              <li>
+                <a href="https://www.twitch.tv/gmhikaru" target="_blank"><img src="images/twitch-icon.webp" alt="Twitch" /></a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/GMHikaru/" target="_blank"><img src="images/facebook-icon.png" alt="Facebook" /></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/GMHikaru?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"
+                  ><img src="images/twitter-icon.png" alt="Twitter"
+                /></a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/gmhikaru/?hl=en" target="_blank"><img src="images/instagram-icon.png" alt="Instagram" /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p>
+          Christopher Hikaru Nakamura, a five-time U.S. Chess Champion and American chess grandmaster, achieved the grandmaster title at an impressively young
+          age of 15, making him the youngest American to earn the title at that time. Nakamura's achievements includes earning team gold and two team bronze
+          medals for the United States at five Chess Olympiads, and reigning as the World Fischer Random Chess Champion. With a peak rating of 2816, Nakamura is
+          the tenth-highest rated player in history..
+        </p>
+        <p>
+          In 2018, Nakamura made his debut on Twitch as a streamer and has gained immense popularity. On his channel, "GMHikaru," he plays speed chess games and
+          reviews his tournament games. He is known for playing games using "joke openings," such as the Bongcloud Attack, the Jerome Gambit, and the Botez
+          Gambit. Despite his success as a professional chess player, Nakamura has declared that he prioritizes his streaming career over his chess playing
+          career.
+        </p>
       </section>
-      <section id="thirdPopular">
-        <h2>Antonio Radić</h2>
-        <img src="magnus-carlsen.jpg" alt="Antonio Radić" />
-        <p></p>
+
+      <section id="thirdPopular" class="player-container">
+        <h2>Antonio Radić <span>- Popular Chess Youtuber</span></h2>
+        <div class="player-info">
+          <img src="images/Antonio-Radić.jpg" alt="" class="player-image" />
+          <div class="player-details">
+            <h3>Rank: <span>#80,338</span></h3>
+            <h3>FIDE Rating: <span>1961</span></h3>
+            <h3>Country: <span>Yugoslavia</span></h3>
+            <ul class="social-links">
+              <li>
+                <a href="https://www.youtube.com/channel/UCL5YbN5WLFD8dLIegT5QAbA" target="_blank"><img src="images/youtube-icon.png" alt="Youtube" /></a>
+              </li>
+              <li>
+                <a href="https://www.twitch.tv/agadmatorofficial" target="_blank"><img src="images/twitch-icon.webp" alt="Twitch" /></a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/agadmatoryoutube/" target="_blank"><img src="images/facebook-icon.png" alt="Facebook" /></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/agadmator?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"
+                  ><img src="images/twitter-icon.png" alt="Twitter"
+                /></a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/agadmator/?hl=en" target="_blank"><img src="images/instagram-icon.png" alt="Instagram" /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p>
+          Antonio Radić, better known as agadmator, is a Croatian YouTuber and chess player with a highly popular YouTube chess channel. Despite not
+          participating in many international chess tournaments, he actively engages in various online chess platforms and was the first chess channel to
+          surpass one million subscribers.
+        </p>
+        <p>
+          Radić's videos feature detailed analysis of a single chess game and are consistently uploaded within 24 hours of big tournaments. Additionally, he
+          hosts a podcast and maintains another channel where he posts videos of himself playing video games.
+        </p>
       </section>
     </main>
   </body>
